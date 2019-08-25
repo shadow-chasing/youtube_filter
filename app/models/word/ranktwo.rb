@@ -3,6 +3,9 @@ class Word::Ranktwo < ApplicationRecord
     # Assosiations
     #--------------------------------------------------------------------------
 
+    # polymorphic
+    include Datable
+
     # belongs to
     belongs_to :rankone
 
